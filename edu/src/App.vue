@@ -16,7 +16,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/about">
+        <v-list-item to="/profile">
           <v-list-item-action>
             <v-icon>face</v-icon>
           </v-list-item-action>
@@ -25,7 +25,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/#">
+        <v-list-item to="/allsheets">
           <v-list-item-action>
             <v-icon>library_books</v-icon>
           </v-list-item-action>
@@ -34,7 +34,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/#">
+        <v-list-item to="/review">
           <v-list-item-action>
             <v-icon>mode_comment</v-icon>
           </v-list-item-action>
@@ -43,7 +43,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/#">
+        <v-list-item to="/room">
           <v-list-item-action>
             <v-icon>voice_over_off</v-icon>
           </v-list-item-action>
@@ -61,7 +61,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/#">
+        <v-list-item to="/register">
           <v-list-item-action>
             <v-icon>contact_mail</v-icon>
           </v-list-item-action>
@@ -70,7 +70,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="/#">
+        <v-list-item to="/login">
           <v-list-item-action>
             <v-icon>lock</v-icon>
           </v-list-item-action>
