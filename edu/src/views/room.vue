@@ -1,7 +1,25 @@
 <template>
-
-        <h1 class="display-2 font-weight-bold mb-3">
-          หน้า ห้องแห่งความลับ
-        </h1>
-
+  <div class="allsheet">
+  <searchroom />
+  <tabletoproom/>
+  <tableroom/>
+  </div>
 </template>
+
+<script>
+import searchroom from '../components/searchroom';
+import tableroom from '../components/tableroom';
+import tabletoproom from '../components/tabletoproom';
+export default {
+  name: 'allsheets',
+  components: {
+    searchroom,
+    tableroom,
+    tabletoproom,
+  },
+};
+</script>
+
+<style>
+
+</style>
