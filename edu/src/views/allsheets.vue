@@ -1,7 +1,22 @@
 <template>
-
-        <h1 class="display-2 font-weight-bold mb-3">
-          หน้า All Sheets
-        </h1>
-
+  <div class="allsheet">
+  <searchsheet />
+  <tablesheet/>
+  </div>
 </template>
+
+<script>
+import searchsheet from '../components/searchsheet';
+import tablesheet from '../components/tablesheet';
+export default {
+  name: 'allsheets',
+  components: {
+    searchsheet,
+    tablesheet,
+  },
+};
+</script>
+
+<style>
+
+</style>

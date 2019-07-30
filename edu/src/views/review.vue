@@ -1,7 +1,22 @@
 <template>
-
-        <h1 class="display-2 font-weight-bold mb-3">
-          หน้า รีวิววิชาเรียน
-        </h1>
-
+  <div class="allsheet">
+  <searchreview />
+  <tablereview/>
+  </div>
 </template>
+
+<script>
+import searchreview from '../components/searchreview';
+import tablereview from '../components/tablereview';
+export default {
+  name: 'allsheets',
+  components: {
+    searchreview,
+    tablereview,
+  },
+};
+</script>
+
+<style>
+
+</style>

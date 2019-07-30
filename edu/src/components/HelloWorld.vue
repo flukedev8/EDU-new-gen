@@ -1,5 +1,5 @@
 <template>
-   <v-container bg fill-height grid-list-md text-xs-center>
+   <v-container  bg fill-height grid-list-xl text-xs-center>
         <v-layout row wrap align-center>
           <v-flex justify-space-around>
             <v-card
