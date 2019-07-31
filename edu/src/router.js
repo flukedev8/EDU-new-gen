@@ -8,6 +8,8 @@ import review from './views/review.vue'
 import room from './views/room.vue'
 import register from './views/register.vue'
 import login from './views/login.vue'
+import viewsheet from './views/viewsheet.vue'
+import viewreview from './views/viewreview.vue'
 
 Vue.use(Router)
 
@@ -54,6 +56,16 @@ export default new Router({
       path: '/login',
       name: 'login',
       component: login
+    },
+    {
+      path: '/viewsheet',
+      name: 'viewsheet',
+      component: viewsheet
+    },
+    {
+      path: '/viewreview',
+      name: 'viewreview',
+      component: viewreview
     }
   ]
 })

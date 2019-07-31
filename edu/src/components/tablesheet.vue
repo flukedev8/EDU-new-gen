@@ -88,7 +88,7 @@
             calories: 159,
             fat: 6.0,
             carbs: 24,
-            action: 'room',
+            action: 'viewsheet',
           },
           {
             name: 'Ice cream sandwich',
@@ -102,7 +102,7 @@
             calories: 262,
             fat: 16.0,
             carbs: 23,
-            action: 'review',
+            action: 'viewsheet',
           },
           {
             name: 'Cupcake',
@@ -116,21 +116,21 @@
             calories: 356,
             fat: 16.0,
             carbs: 49,
-            action: 'room',
+            action: 'viewsheet',
           },
           {
             name: 'Jelly bean',
             calories: 375,
             fat: 0.0,
             carbs: 94,
-            action: 'room',
+            action: 'viewsheet',
           },
           {
             name: 'Lollipop',
             calories: 392,
             fat: 0.2,
             carbs: 98,
-            action: 'room',
+            action: 'viewsheet',
           },
           {
             name: 'Honeycomb',

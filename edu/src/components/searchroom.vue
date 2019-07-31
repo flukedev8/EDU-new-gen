@@ -13,7 +13,7 @@
     elevation="12"
     >
     <v-toolbar
-      color="cyan accent-4"
+      color="pink accent-4"
       dark
     >
 

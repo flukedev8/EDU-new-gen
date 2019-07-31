@@ -13,7 +13,7 @@
     elevation="12"
     >
     <v-toolbar
-      color="cyan accent-4"
+      color="amber darken-4"
       dark
     >
 
