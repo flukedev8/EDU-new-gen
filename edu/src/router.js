@@ -10,6 +10,7 @@ import register from './views/register.vue'
 import login from './views/login.vue'
 import viewsheet from './views/viewsheet.vue'
 import viewreview from './views/viewreview.vue'
+import viewroom from './views/viewroom.vue'
 
 Vue.use(Router)
 
@@ -66,6 +67,11 @@ export default new Router({
       path: '/viewreview',
       name: 'viewreview',
       component: viewreview
+    },
+    {
+      path: '/viewroom',
+      name: 'viewroom',
+      component: viewroom
     }
   ]
 })
