@@ -37,7 +37,7 @@
     <p class="body-2">วันเวลาที่สร้างโพส: {{date}} </p>
     </div>
     <div>
-       <v-btn class="ma-2" color="red" dark :href="link">get link
+       <v-btn class="ma-2" color="red" dark :href="link" target="_blank">get link
         <v-icon dark right>insert_link</v-icon> 
       </v-btn>
       <v-btn class="ma-2" text icon color="blue lighten-2">
