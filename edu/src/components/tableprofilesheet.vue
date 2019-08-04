@@ -21,7 +21,7 @@
     >
     <v-flex>
     <div class="text-end">
-     <v-btn class="ma-2" color="orange darken-2" dark>
+     <v-btn class="ma-2" color="orange darken-2" dark to="/createsheets">
         <v-icon dark left>library_books</v-icon>สร้าง sheet
       </v-btn>
     </div>

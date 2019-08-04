@@ -21,7 +21,7 @@
     >
     <v-flex>
     <div class="text-end">
-     <v-btn class="ma-2" color="orange darken-2" dark>
+     <v-btn class="ma-2" color="orange darken-2" dark to="/createroom">
         <v-icon dark left>voice_over_off</v-icon>สร้างห้อง
       </v-btn>
     </div>

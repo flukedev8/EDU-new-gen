@@ -73,7 +73,7 @@ export default {
    coderoom: '00000',
    nameroom: 'บ้าบอที่สุด',
    nameowner:'หล่อสุดในสจล.',
-   story: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores modi quidem veniam,expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores modi quidem veniam,expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores modi quidem veniam,expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.',
+   story: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Harum maiores modi quidem veniam,expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores modi quidem veniam,expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores modi quidem veniam,expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.',
    like:'1000',
    date:'2019/08/01  10:11:33 ',
   }),

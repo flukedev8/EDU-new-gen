@@ -11,6 +11,8 @@ import login from './views/login.vue'
 import viewsheet from './views/viewsheet.vue'
 import viewreview from './views/viewreview.vue'
 import viewroom from './views/viewroom.vue'
+import createsheets from './views/createsheets.vue'
+import createroom from './views/createroom.vue'
 
 Vue.use(Router)
 
@@ -72,6 +74,15 @@ export default new Router({
       path: '/viewroom',
       name: 'viewroom',
       component: viewroom
+    },
+    {
+      path: '/createsheets',
+      name: 'createsheets',
+      component: createsheets
+    },    {
+      path: '/createroom',
+      name: 'createroom',
+      component: createroom
     }
   ]
 })
