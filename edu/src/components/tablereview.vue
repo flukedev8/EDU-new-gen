@@ -33,12 +33,12 @@
     >
       <template v-slot:item.action="{ item }" >
       <v-icon
-        small
+        size="30"
         class="mr-2"
         @click="linktopage(item)"
         
       >
-      edit
+      feedback
       </v-icon>
       </template>
       
@@ -77,7 +77,7 @@
           { text: 'ชื่อวิชา', value: 'calories' },
           { text: 'ชื่ออาจารย์', value: 'fat' },
           { text: 'ยอดคนกด Like', value: 'carbs' },
-          { text: 'Actions', value: 'action', sortable: false },
+          { text: 'คลิกที่ icon', value: 'action', sortable: false },
         ],
         desserts: [
           {
