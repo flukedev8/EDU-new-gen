@@ -17,7 +17,7 @@
       dark
     >
 
-      <v-toolbar-title>รีวิววิชาเรียน</v-toolbar-title>
+      <v-toolbar-title>ห้องแห่งความลับ</v-toolbar-title>
 
     </v-toolbar>
 
