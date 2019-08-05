@@ -33,7 +33,7 @@
       counter=4000
     ></v-textarea>
     <div class="text-end">
-     <v-btn class="ma-2" color="orange darken-2" dark>
+     <v-btn class="ma-2" color="pink accent-4" dark>
         <v-icon dark left>comment</v-icon>Post
       </v-btn>
     </div>
