@@ -20,16 +20,23 @@
                 dark
                 flat
               >
-                <v-toolbar-title>Register Form</v-toolbar-title>
+                <v-toolbar-title>Login Form</v-toolbar-title>
                 <v-spacer></v-spacer>
               </v-toolbar>
               <v-card-text>
-                <v-form>
+                <v-form
+                  ref="form"
+                  v-model="valid"
+                  lazy-validation
+                >
                   <v-text-field
                     label="E-mail นักศึกษา"
                     name="login"
                     prepend-icon="person"
-                    type="text"
+                    type="email"
+                    v-model="email"
+                    :rules="emailRules"
+                    required
                   ></v-text-field>
 
                   <v-text-field
@@ -38,12 +45,16 @@
                     name="password"
                     prepend-icon="lock"
                     type="password"
+                    v-model="password"
+                    required
                   ></v-text-field>
+
+
                 </v-form>
               </v-card-text>
               <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="orange darken-1">Register</v-btn>
+                <v-btn color="warning">Login</v-btn>
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -58,6 +69,13 @@
     },
     data: () => ({
       drawer: null,
+      valid: true,
+      email: '',
+      emailRules: [
+        v => !!v || 'E-mail ใส่ด้วยคะอย่าลืมสิ',
+        v => /.+@.+\..+/.test(v) || 'E-mail ก็ใส่ให้มันถูกต้องหน่อยนะคะ',
+      ],
+      password: '',
     }),
   }
 </script>

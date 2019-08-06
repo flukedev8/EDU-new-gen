@@ -115,14 +115,12 @@
       ],
       checkbox: false,
       confirm: '',
-      confirmRules2:[
-        v => (v !== v.password) || 'testnaja'
-      ]
+
     }),
 
     computed:{
       confirmRules(){
-        return this.password !== this.confirm ? 'รหัสมันไม่ตรงกันกรุณาตรวจสอบ' : 'รหัสตรงกันแล้ว'
+        return this.password !== this.confirm ? 'รหัสมันไม่ตรงกันกรุณาตรวจสอบ' : true
       }
     },
     methods: {
