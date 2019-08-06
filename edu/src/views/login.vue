@@ -1,7 +1,63 @@
 <template>
+      <v-container
+        bg 
+        fill-height 
+        grid-list-xl 
+        text-xs-center
+      >
+        <v-layout
+          align-center
+          justify-center
+        >
+          <v-flex
+            xs12
+            sm8
+            md4
+          >
+            <v-card class="elevation-12">
+              <v-toolbar
+                color="orange darken-1"
+                dark
+                flat
+              >
+                <v-toolbar-title>Register Form</v-toolbar-title>
+                <v-spacer></v-spacer>
+              </v-toolbar>
+              <v-card-text>
+                <v-form>
+                  <v-text-field
+                    label="E-mail นักศึกษา"
+                    name="login"
+                    prepend-icon="person"
+                    type="text"
+                  ></v-text-field>
 
-        <h1 class="display-2 font-weight-bold mb-3">
-          หน้า login ไง จะใครล่ะ ?
-        </h1>
-
+                  <v-text-field
+                    id="password"
+                    label="Password"
+                    name="password"
+                    prepend-icon="lock"
+                    type="password"
+                  ></v-text-field>
+                </v-form>
+              </v-card-text>
+              <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn color="orange darken-1">Register</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-container>
 </template>
+
+<script>
+  export default {
+    props: {
+      source: String,
+    },
+    data: () => ({
+      drawer: null,
+    }),
+  }
+</script>
