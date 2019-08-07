@@ -57,7 +57,7 @@
             <v-icon>people</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Our team</v-list-item-title>
+            <v-list-item-title>About me</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
